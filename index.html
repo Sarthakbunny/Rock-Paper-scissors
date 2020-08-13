@@ -8,6 +8,16 @@
     <body>
         <header id="header">
             <h1>Rock Paper Scissor</h1>
+            <div class="dropdown">
+                <button class="dropbtn">Best of #</button>
+                <div class="dropdown-content">
+                    <div id="s3">BO3</div>
+                    <div id="s5">BO5</div>
+                    <div id="s7">BO7</div>
+                    <div id="s9">BO9</div>
+                    <div id="s11">BO11</div>
+                </div>
+              </div>
         </header>
         <div class="score-board">
             <div id="user-label" class="label">User</div>
@@ -19,20 +29,20 @@
         </div>
         <div class="choices">
             <div class="choice" id="r">
-                <img src="./images/rock.jpeg" alt="rock_image" height="100px" width="100px">
+                <img src="./images/rock.png" alt="rock_image" class="draw-icons">
             </div>
             <div class="choice" id="p">
-                <img src="./images/paper.png" alt="rock_image" height="100px" width="100px">
+                <img src="./images/paper.png" alt="paper_image" class="draw-icons">
             </div>
             <div class="choice" id="s">
-                <img src="./images/scissor.png" alt="rock_image" height="100px" width="100px">
+                <img src="./images/scissor.png" alt="scissor_image" class="draw-icons">
             </div>
         </div>
         <div>
             <p id="action-message">May the luck be with you</p>
         </div>
         <div class="reset">
-            <button type="submit" id="reset">Reset Score</button>
+            <button type="submit" id="reset">Play Again</button>
         </div>
         <script src="./app.js" ></script>
     </body>
