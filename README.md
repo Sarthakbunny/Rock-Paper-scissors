@@ -1,2 +1,2 @@
-# Rock-Paper-scissors
-Little fun project of Rock Paper Scissors using HTML CSS and JavaScript
+## Let's Play some rock paper and scissors ##
+Just a 1 hr project with basic HTML CSS and Javascript, provide me feedback please
